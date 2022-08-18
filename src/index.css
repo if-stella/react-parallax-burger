@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=MuseoModerno:wght@200;400;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'MuseoModerno', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'MuseoModerno', cursive;
+}
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color:#FE9D12;
+  --primary-color-light:#FEC471;
+  --text-color: #1E1A35;
+  --border: #282346;
+}
+
+ul {
+  list-style-type:none;
+}
+
+h1 {
+  font-size:5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size:4.5rem;
+  font-weight: 300;
+}
+
+
+h2 {
+  font-size:3.5rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size:2rem;
+  font-family: 'Caveat', cursive;
+}
+
+h5 {
+  font-size:1.5rem;
+  font-weight: 700;
+}
+
+.btn {
+  padding: .75rem 1.5rem;
+  color: var(--text-color);
+  background:transparent;
+  border: 1px solid var(--border);
+  border-radius: 24px;
+  font-size: 1.5rem;
+}
+
+.btn-dark {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 756px) {
+  h1 {
+    font-size:3.5rem;
+  }
+  h2 {
+    font-size:2.5rem;
+  }
+  h4 {
+    font-size:1.5rem;
+  }
+  h5 {
+    font-size:1.25rem;
+  }
+}
