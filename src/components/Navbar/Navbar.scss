@@ -1,8 +1,9 @@
 .navbar {
   width: 100%;
-  height: 80px;
-  border-bottom: 1px solid #333;
+  height: 72px;
   z-index:3;
+  position:fixed;
+  top:0;
 
   .container {
     display: flex;
@@ -16,9 +17,37 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size:1.2rem;
-    color: var(--primary-color);
+    color: var(--text-color);
+    border-bottom: 2px solid transparent;
+  }
+
+  li:hover {
+    color:#3c3569;
+    text-shadow: -5px -5px 15px rgba(5, 3, 20, 0.05), 5px 5px 15px rgba(5, 3, 20, 0.05);
+  }
+
+  .navicon {
+    color:var(--text-color);
   }
 }
+
+.navbar-bg {
+  background-color: rgba(5, 3, 20, 0.75);
+  transition: 0.4s ease;
+
+  li {
+    color:var(--primary-color);
+  }
+
+  li:hover {
+    color:var(--primary-color-light);
+  }
+
+  .navicon {
+    color:var(--primary-color);
+  }
+}
+
 
 .nav-menu {
   display:flex;
@@ -38,7 +67,8 @@
   height:100vh;
   top:0;
   left:0;
-  background-color:#141223;
+  background-color:#0e0d1aec;
+  backdrop-filter: blur(5px);
   transition: 0.7s;
   z-index:5;
 }

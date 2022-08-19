@@ -5,7 +5,14 @@ const Stage = () => {
   return (
     <div className="stage">
       <div className="container">
-        <h1>The magic happens here!</h1>
+        <div className="content">
+          <div className="text">
+            <h1>Geek Burgers</h1>
+            <p>The best for the best! Always served daily & fresh.</p>
+          </div>
+          <button className="btn">Delivery</button>
+          <button className="btn">Reservation</button>
+        </div>
       </div>
     </div>
   )
