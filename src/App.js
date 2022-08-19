@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Stage />
       <StackBurger />
-      <Footer />
     </div>
   );
 }

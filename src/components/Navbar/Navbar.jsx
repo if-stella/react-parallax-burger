@@ -6,11 +6,20 @@ import './Navbar.scss'
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleNav = () => setNav(!nav)
+  const [color, setColor] = useState(false)
+  const changeColor = () => {
+    if(window.scrollY >= 100) {
+        setColor(true)
+    } else {
+        setColor(false)
+    }
+  }
+  window.addEventListener('scroll', changeColor)
   return (
-    <div className="navbar">
+    <div className={color ? 'navbar navbar-bg' : 'navbar'}>
       <div className="container">
         <div>
-          <FaHamburger size={40} style={{marginLeft: '1em', color:'#141223'}}/>
+          <FaHamburger size={40} style={{marginLeft: '1em'}} className={'navicon'}/>
         </div>
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
           <li>Home</li>
@@ -20,7 +29,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
         <div className="hamburger" onClick={handleNav}>
-          {nav ? <FaTimes style={{color: 'var(--primary-color-light)', marginRight:'1em'}}/> : <FaBars style={{color: 'var(--primary-color)', marginRight:'1em'}}/>}
+          {nav ? <FaTimes style={{color: 'var(--primary-color-light)', marginRight:'1em'}}/> : <FaBars style={{ marginRight:'1em'}} className={'navicon'}/>}
         </div>
       </div>
     </div>

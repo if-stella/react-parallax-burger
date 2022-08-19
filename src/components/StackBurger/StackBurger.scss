@@ -1,29 +1,75 @@
 .stack-container {
-  background: url('https://res.cloudinary.com/dr24t0rw2/image/upload/v1660815085/Burger/burgerbackground_my3tns.png');
+  background: #141223;
   height: 100vh;
   width:100%;
   position:relative;
-  z-index:10;
-  background-size:contain;
-  background-position: center;
+  z-index:3;
+}
+
+.parallax-container {
+  top:2em !important;
+  margin:0em auto;
+  width:100%;
+  text-align:center;
+
+  h2 {
+    padding-top:1em;
+    color:var(--primary-color);
+    font-family: "Caveat", cursive;
+    line-height:2.5rem;
+  }
+
+  p {
+    font-size:1.25em;
+    line-height:1.3em;
+    color:#FFF5E7;
+    max-width:640px;
+    margin:0 auto;
+    padding:1em;
+  }
 }
 
 #topbun {
   z-index:60;
+  height:200px !important;
 }
 
 #onions {
   z-index:59;
-}
+  height:128px !important;
+  top:100px !important;
+  left:4px !important;
+  }
 
 #tomatoes {
   z-index:58;
+  height:187px !important;
+  top:86px !important;
 }
 
 #patty {
+  height:244px !important;
   z-index:57;
+  top:100px !important;
+  left:10px !important;
 }
 
 #bottombun {
+  height:372px !important;
+  top:70px !important;
   z-index:56;
+}
+
+@media screen and (max-width: 500px) {
+  #tomatoes {
+    left:-40px !important;
+  }
+
+  #bottombun {
+    left:-85px !important;
+  }
+
+  p {
+    font-size:1.15em !important;
+  }
 }
