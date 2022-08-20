@@ -10,9 +10,9 @@ const Videostage = () => {
     <div className="videostage">
       <div className="overlay"></div>
       <div className="videocontent">
-        <h2>Yummy yummy fancy burgers</h2>
-        <p>Buy them now!</p>
-        <button className="btn btn-white">Delivery</button>
+        <h1>Bouncy Burgers</h1>
+        <p>Always fresh & bouncy.</p>
+        <button className="btn btn-white">Order  now</button>
       </div>
       <video src={video[0]} autoPlay loop muted alt="burger"/>
 
