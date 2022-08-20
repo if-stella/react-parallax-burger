@@ -17,17 +17,17 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size:1.2rem;
-    color: var(--text-color);
+    color: white;
     border-bottom: 2px solid transparent;
   }
 
   li:hover {
-    color:#3c3569;
+    color:var(--primary-color);
     text-shadow: -5px -5px 15px rgba(5, 3, 20, 0.05), 5px 5px 15px rgba(5, 3, 20, 0.05);
   }
 
   .navicon {
-    color:var(--text-color);
+    color:white;
   }
 }
 

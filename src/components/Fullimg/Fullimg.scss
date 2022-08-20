@@ -1,0 +1,17 @@
+.fullimg {
+  width: 100%;
+  height:100vh;
+}
+
+.fullimg .container {
+  width:100%;
+  height:100%;
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (max-width: 756px) {
+  .fullimg .container {
+    grid-template-columns: 1fr;
+  }
+}
