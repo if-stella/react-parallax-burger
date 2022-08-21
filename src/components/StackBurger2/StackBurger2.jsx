@@ -13,8 +13,6 @@ const images = [
  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661081537/Burger/andy-chilton-oljL3vFlV2g-unsplash_1_7_jlleth.png',
 ];
 
-
-
 const StackBurger2 = () => {
   return (
     <div className="stack2-container">
