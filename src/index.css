@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=MuseoModerno:wght@200;400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:wght@300;400;700&display=swap');
 
 body {
   margin: 0;
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin-top:-72px;
 }
 
 code {
-  font-family: 'MuseoModerno', cursive;
+  font-family: 'Montserrat', sans-serif;
 }
 
 * {
@@ -36,26 +36,22 @@ p {
 h1 {
   font-size:8rem;
   line-height:7rem;
-  font-weight: 700;
-  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-family: 'Modak', cursive;
 }
 
 h2 {
   font-size:4rem;
   line-height:3.5rem;
-  font-weight: 700;
-  font-family: 'Caveat', cursive;
+  font-weight: 400;
+  font-family: 'Modak', cursive;
 }
 
 h3 {
-  font-size:2rem;
-  line-height:3rem;
-}
-
-h4 {
   font-size:1.5rem;
   line-height:1.5rem;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
@@ -64,9 +60,10 @@ h4 {
   background:transparent;
   border: 2px solid var(--border);
   border-radius: 24px;
-  font-size: 1.1rem;
-  font-weight:700;
-  font-family: 'MuseoModerno', cursive;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight:400;
+  font-family: 'Modak', cursive;
 }
 
 .btn:hover {
@@ -103,10 +100,6 @@ h4 {
     line-height:2rem;
   }
   h3 {
-    font-size:1.5rem;
-    line-height:2.5rem;
-  }
-  h4 {
     font-size:1.25rem;
     line-height:1.25rem;
   }
