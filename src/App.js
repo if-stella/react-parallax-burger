@@ -2,6 +2,7 @@ import React from 'react'
 import Fullimg from './components/Fullimg/Fullimg';
 import Navbar from './components/Navbar/Navbar';
 import StackBurger from './components/StackBurger/StackBurger';
+import StackBurger2 from './components/StackBurger2/StackBurger2';
 import Videostage from './components/Videostage/Videostage';
 
 const images = [
@@ -19,6 +20,7 @@ function App() {
       <StackBurger />
       <Fullimg bgImg1={images[0]} bgImg2={images[1]}/>
       <Fullimg bgImg1={images[3]} bgImg2={images[2]}/>
+      <StackBurger2 />
     </div>
   );
 }
