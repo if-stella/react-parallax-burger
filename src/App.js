@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import StackBurger from './components/StackBurger/StackBurger';
 import StackBurger2 from './components/StackBurger2/StackBurger2';
 import Videostage from './components/Videostage/Videostage';
+import Footer from './components/Footer/Footer';
 
 const images = [
   'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031973/Burger/Frame_5_sj6msa.png',
@@ -21,6 +22,7 @@ function App() {
       <Fullimg bgImg1={images[0]} bgImg2={images[1]}/>
       <Fullimg bgImg1={images[3]} bgImg2={images[2]}/>
       <StackBurger2 />
+      <Footer />
     </div>
   );
 }
