@@ -1,5 +1,7 @@
 import React from 'react'
 import Burgerdetail from './Burgerdetail';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Menu.scss'
 
 const burgers = [
@@ -12,28 +14,30 @@ const burgers = [
 ];
 
 const burgerNames = [
-  "Thank God it's fried Egg",
-  'New Bacon-ings',
-  'Blue Is the warmest Cheese',
+  "Thank god it's fried egg",
+  'New bacon-ings',
+  'Blue is the warmest cheese',
   "Pepper don't preach",
-  'If looks could Kale',
-  'Mushroom with a View',
+  'If looks could kale',
+  'Mushroom with a view',
   ];
 
   const burgerInfos = [
-    "Pretzel bun, applewood caramelized bacon, onion mayo, tomatoes, runny egg.",
-    'All-natural bison, organic cheddar, smoked turkey, red onions, organic ketchup & mustard, onion jam, black brioche bun.',
-    'Beef and smoked bacon patty, blue cheese, fig jam and runny warm Truffle Mayonnaise',
+    "Pretzel bun, applewood caramelized bacon, onion-pickle mayo, tomatoes, runny fried egg.",
+    'All-natural bison, organic cheddar, red onions, organic ketchup & mustard, onion jam, black brioche bun.',
+    'Beef and smoked bacon patty, blue cheese, fig jam and runny truffle mayo.',
     "Guacamole, caramelized onions, pepper jack cheese, queso sauce, chipotle aioli, pico de gallo, jalapeño, tomato.",
-    'Oregano-spiced patty, pepperjack cheese, basil aioli, roasted tomatoes, grilled mushrooms, caramelized onions and kale.',
+    'Oregano-spiced beef, chipotle mayo, roasted tomatoes, grilled mushrooms, caramelized onions and kale.',
     'Pickled onions, grilled mushrooms, smoked bacon chili, vermont white cheddar, fritos, onion mayo.',
     ];
+
+AOS.init();
 
 const Menu = () => {
   return (
     <div className="menu">
       <div className="container">
-        <h2>Meet our burgers!</h2>
+        <h2 data-aos="fade-down" data-aos-duration="150" data-aos-easing="ease-in-out">Meet our burgers!</h2>
           <div className="menugrid">
             <Burgerdetail burgerImage={burgers[0]} burgerName={burgerNames[0]} burgerInfo={burgerInfos[0]}/>
             <Burgerdetail burgerImage={burgers[3]} burgerName={burgerNames[3]} burgerInfo={burgerInfos[3]}/>
