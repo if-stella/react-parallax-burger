@@ -6,6 +6,7 @@ import StackBurger2 from './components/StackBurger2/StackBurger2';
 import Videostage from './components/Videostage/Videostage';
 import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
+import Ingredients from './components/Ingredients/Ingredients';
 
 const images = [
   'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031973/Burger/Frame_5_sj6msa.png',
@@ -23,6 +24,7 @@ function App() {
       <Menu />
       <Fullimg bgImg1={images[0]} bgImg2={images[1]}/>
       <Fullimg bgImg1={images[3]} bgImg2={images[2]}/>
+      <Ingredients />
       <StackBurger2 />
       <Footer />
     </div>
