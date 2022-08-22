@@ -20,16 +20,16 @@ const burgerNames = [
   "Pepper don't preach",
   'If looks could kale',
   'Mushroom with a view',
-  ];
+];
 
-  const burgerInfos = [
-    "Pretzel bun, applewood caramelized bacon, onion-pickle mayo, tomatoes, runny fried egg.",
-    'All-natural bison, organic cheddar, red onions, organic ketchup & mustard, onion jam, black brioche bun.',
-    'Beef and smoked bacon patty, blue cheese, fig jam and runny truffle mayo.',
-    "Guacamole, caramelized onions, pepper jack cheese, queso sauce, chipotle aioli, pico de gallo, jalapeño, tomato.",
-    'Oregano-spiced beef, chipotle mayo, roasted tomatoes, grilled mushrooms, caramelized onions and kale.',
-    'Pickled onions, grilled mushrooms, smoked bacon chili, vermont white cheddar, fritos, onion mayo.',
-    ];
+const burgerInfos = [
+  "Pretzel bun, applewood caramelized bacon, onion-pickle mayo, tomatoes, runny fried egg.",
+  'All-natural bison, organic cheddar, red onions, organic ketchup & mustard, onion jam, black brioche bun.',
+  'Beef and smoked bacon patty, blue cheese, fig jam and runny truffle mayo.',
+  "Guacamole, caramelized onions, pepper jack cheese, queso sauce, chipotle aioli, pico de gallo, jalapeño, tomato.",
+  'Oregano-spiced beef, chipotle mayo, roasted tomatoes, grilled mushrooms, caramelized onions and kale.',
+  'Pickled onions, grilled mushrooms, smoked bacon chili, vermont white cheddar, fritos, onion mayo.',
+];
 
 AOS.init();
 

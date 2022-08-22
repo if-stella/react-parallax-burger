@@ -1,0 +1,165 @@
+.ingredients {
+  background: #141223;
+  width:100%;
+  position:relative;
+  color: white;
+  overflow:hidden;
+  text-align:center;
+
+  h2 {
+    margin-top:1em;
+  }
+
+  h3 {
+    font-family: 'Modak', cursive;
+    font-weight: 400;
+    font-size:2.5em;
+    line-height:1em;
+  }
+}
+
+.ingredientdetail {
+  max-width:560px;
+  margin:0 auto;
+  padding:2em;
+}
+
+.imgslider {
+  display:grid;
+  height:440px;
+  margin:auto;
+  place-items:center;
+  position:relative;
+}
+
+.slide-track {
+  display:flex;
+  width: calc(400px * 18);
+  align-items:center;
+  gap:40px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.pattieslide {
+  perspective: 100px;
+}
+
+.slide-track img {
+  transition: transform 1.5s;
+}
+
+.slide-track img:hover {
+  transform:translateZ(0.5em);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-400px * 18));
+  }
+}
+
+.imgslider::after,
+.imgslider::before
+ {
+  background:linear-gradient(to right, #141223 0%, #141223f5 10%, #14122300 100%);
+  content: '';
+  z-index:3;
+  height:100%;
+  position:absolute;
+  width:20%;
+}
+
+.pattieslide h4 {
+  display:none;
+  position:absolute;
+  font-size:2.25em;
+  text-shadow: -6px -6px 12px #0a09127a, 6px 6px 12px #0a09127a;
+  z-index:5;
+  text-align:center;
+  width:100%;
+  top:50%;
+}
+
+.pattieslide:hover h4 {
+  display:block;
+}
+
+.imgslider::before{
+  left:0;
+  top:0;
+}
+
+.imgslider::after{
+  right:0;
+  top:0;
+  transform:rotateZ(180deg);
+}
+
+.bottom-ingredients {
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:flex-end;
+  gap:6em;
+}
+
+.bi-box-imgs {
+  position:relative;
+  height:280px;
+}
+
+.bi-box-imgs img:nth-child(1){
+  position:absolute;
+  left:-1em;
+  top:-0.5em;
+}
+
+.bi-box-imgs img:nth-child(2){
+  position:absolute;
+  right:-0.5em;
+  bottom:-0.75em;
+  z-index:2;
+}
+
+@media screen and (max-width: 550px) {
+  .slide-track{
+    //background:red;
+    gap:0px;
+    height:360px;
+    animation: scroll 36s linear infinite;
+  }
+
+  .slide-track img{
+    //background:orange;
+  }
+
+
+  .pattieslide{
+    //background:yellow;
+    transform:scale(0.75);
+  }
+
+  .imgslider {
+    height:360px;
+  }
+
+.imgslider::after,
+.imgslider::before {
+  z-index:3;
+  height:360px;
+  position:absolute;
+  width:10%;
+  //background:green;
+}
+
+.bottom-ingredients {
+  flex-direction:column;
+}
+}

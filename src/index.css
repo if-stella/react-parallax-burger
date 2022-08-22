@@ -30,7 +30,7 @@ ul {
 }
 
 p {
-  color:var(--text-color);
+  line-height:1.6em;
 }
 
 h1 {
