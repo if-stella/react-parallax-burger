@@ -1,0 +1,72 @@
+.menu {
+  background: #F4BB0A;
+  width:100%;
+  text-align:center;
+  padding: 4em;
+
+  h2 {
+    color:#282346;
+  }
+
+  h3 {
+    font-weight: 400;
+    font-family: 'Modak', cursive;
+    font-size:2.5em;
+    line-height:1em;
+    color:#282346;
+  }
+
+  p {
+    color:var(--text-color);
+    font-size:18px;
+    line-height:1.6em;
+  }
+}
+
+.menu img {
+  width:40vw;
+  max-width: 640px;
+}
+
+.description {
+  max-width: 560px;
+}
+
+.burgerdetail {
+  display:flex;
+  flex-direction:column;
+  max-width: 640px;
+  align-items:center;
+  justify-content:center;
+  gap:1em;
+}
+
+.menugrid {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 3em auto;
+  gap:5em;
+}
+
+@media screen and (max-width: 550px) {
+  h3 {
+    font-size:1.75em !important;
+    line-height:1em;
+  }
+
+  .menugrid {
+    grid-template-columns: repeat(1, 1fr);
+    align-items:center;
+    justify-content:center;
+    margin: 2em 0 0 0;
+    gap:3em;
+  }
+
+  .burgerdetail {
+    gap:1em;
+  }
+
+  .menu img {
+    width:300px!important;
+  }
+}
