@@ -49,31 +49,28 @@
 }
 
 @media screen and (max-width: 550px) {
-  #topbun2 {
-    left:-2em !important;
-  }
-
-  #salad2 {
-    left:-2em !important;
-  }
-
-  #tomatoe2 {
-    left:-2.5em !important;
-    top:3em !important;
-  }
 
   #ketchup {
-    top:10.5em !important;
+    top:8em !important;
   }
 
   #cheese {
-    left:-.5em !important;
-    top:10em !important;
+    left:0em !important;
+    top:9em !important;
   }
 
   #bottombun2 {
     top:7em !important;
-    right:16em !important;
-    left:-9.5em !important;
+    left:-1em !important;
+  }
+
+  #mayo {
+    top:5.5em !important;
+    left:0em !important;
+  }
+
+  #tomatoe2 {
+    left:0em !important;
+    top:3em !important;
   }
 }

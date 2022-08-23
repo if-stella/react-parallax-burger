@@ -14,7 +14,7 @@ const Videostage = () => {
         <p>Always fresh & bouncy! Enjoy them delivered to your door or inhouse.</p>
         <button className="btn btn-white">Order  now</button>
       </div>
-      <video src={video[0]} autoPlay loop muted alt="burger"/>
+      <video src={video[0]} autoPlay loop muted playsinline alt="Video showing how a burger is assembled."/>
     </div>
   )
 }
