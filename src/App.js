@@ -10,7 +10,7 @@ import Ingredients from './components/Ingredients/Ingredients';
 
 const images = [
   'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031973/Burger/Frame_5_sj6msa.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031969/Burger/Frame_11_xh6wmv.png',
+  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245805/Burger/Frame_16_dnpt5f.png',
   'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031971/Burger/Frame_9_jumbun.png',
   'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031968/Burger/Frame_8_atps8a.png',
 ];
