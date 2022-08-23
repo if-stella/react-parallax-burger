@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Montserrat:wght@400;600;700&display=swap');
 
 body {
   margin: 0;
@@ -51,6 +51,14 @@ h3 {
   font-size:1.5rem;
   line-height:1.5rem;
   font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+  font-size:1.25em !important;
+  line-height:1.25rem;
+  text-transform:uppercase;
+  font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
 
