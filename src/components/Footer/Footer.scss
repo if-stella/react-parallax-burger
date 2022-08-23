@@ -18,7 +18,7 @@
   }
 
   p:hover {
-    color:var(--primary-color) !important;
+    color:black !important;
   }
 }
 
@@ -30,13 +30,14 @@
 
 .footer .icon {
   font-size:2rem;
-  color: var(--primary-color);
+  color: var(--border);
   margin-right:0.5em;
   margin-top:0.5em;
 }
 
 .footer .icon:hover {
-  color:var(--primary-color-light);
+  color:var(--primary-color);
+  transform:scale(1.2);
 }
 
 @media screen and (max-width: 756px) {

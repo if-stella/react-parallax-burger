@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="col">
-          <h3>Explore our Menu</h3>
+          <h3>Our Menu</h3>
           <p>Menu</p>
           <p>Nutritions</p>
           <p>Drinks</p>

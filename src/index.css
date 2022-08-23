@@ -50,8 +50,9 @@ h2 {
 h3 {
   font-size:1.5rem;
   line-height:1.5rem;
-  font-weight: 700;
+  font-weight:600;
   font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
 }
 
 h4 {
@@ -108,7 +109,7 @@ h4 {
     line-height:3rem;
   }
   h3 {
-    font-size:1.5rem;
-    line-height:2rem;
+    font-size:1.25rem !important;
+    line-height:1rem;
   }
 }
