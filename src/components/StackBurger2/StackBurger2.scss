@@ -61,7 +61,6 @@
 
   #bottombun2 {
     top:7em !important;
-    left:-1em !important;
   }
 
   #mayo {
@@ -72,5 +71,12 @@
   #tomatoe2 {
     left:0em !important;
     top:3em !important;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  #bottombun2 {
+    left:-3.5em !important;
   }
 }

@@ -2,7 +2,7 @@
   background: linear-gradient(0deg, rgba(255,244,210,1) 0%, rgba(244,187,10,1) 100%);
   width:100%;
   text-align:center;
-  padding: 4em;
+  padding:4em;
 
   h2 {
     color:#282346;
@@ -64,6 +64,10 @@
 
   .burgerdetail {
     gap:1em;
+  }
+
+  .menu {
+    padding: 4em 1em;
   }
 
   .menu img {
