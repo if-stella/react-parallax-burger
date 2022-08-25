@@ -42,15 +42,15 @@ h1 {
 }
 
 h2 {
-  font-size:6rem;
-  line-height:5.5rem;
+  font-size:5rem;
+  line-height:4.5rem;
   font-weight: 400;
   font-family: 'Modak', cursive;
 }
 
 h3 {
-  font-size:1.5rem;
-  line-height:1.5rem;
+  font-size:1.2rem;
+  line-height:1.2rem;
   font-weight:600;
   font-family: 'Montserrat', sans-serif;
   text-transform:uppercase;

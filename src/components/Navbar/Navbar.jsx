@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
-import {FaHamburger, FaBars, FaTimes} from 'react-icons/fa'
+import {FaBars, FaTimes} from 'react-icons/fa'
+import {GiHamburger} from 'react-icons/gi'
 
 import './Navbar.scss'
 
@@ -19,7 +20,7 @@ const Navbar = () => {
     <div className={color ? 'navbar navbar-bg' : 'navbar'}>
       <div className="container">
         <div>
-          <FaHamburger size={40} style={{marginLeft: '1em'}} className={'navicon'}/>
+          <GiHamburger size={40} style={{marginLeft: '1em'}} className={'navicon'}/>
         </div>
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
           <li>Home</li>

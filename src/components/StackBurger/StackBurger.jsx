@@ -23,11 +23,11 @@ const StackBurger = () => {
       <div className="parallax-container">
       <Parallax pages={2}>
         <ParallaxLayer sticky={true}><h2>Only the best!</h2><p>We strive to elevate the burger experience to its top shelf – because you and your burger deserve better. We like them medium rare with a nice pink center and juices running down your arm, but you have it as you like it.</p></ParallaxLayer>
-        <ParallaxLayer offset={1.45} speed={1} id={'topbun'}>{moreThan550 ? <img src={images[0]} alt="Burgern bun big"/> : <img src={images[5]} alt="Burger bun small"/>}</ParallaxLayer>
-        <ParallaxLayer offset={1.45} speed={2} id={'onions'}>{moreThan550 ? <img src={images[1]} alt="Onions big"/> : <img src={images[6]} alt="Onions small"/>}</ParallaxLayer>
-        <ParallaxLayer offset={1.45} speed={3} id={'tomatoes'}>{moreThan550 ? <img src={images[2]} alt="Tomatoes big"/> : <img src={images[7]} alt="Tomatoes small"/>}</ParallaxLayer>
-        <ParallaxLayer offset={1.45} speed={4} id={'patty'}>{moreThan550 ? <img src={images[3]} alt="Patty big"/> : <img src={images[8]} alt="Patty small"/>}</ParallaxLayer>
-        <ParallaxLayer offset={1.45} speed={5} id={'bottombun'}>{moreThan550 ? <img src={images[4]} alt="Burger bun big"/> : <img src={images[9]} alt="Burger bun small"/>}</ParallaxLayer>
+        <ParallaxLayer offset={1.36} speed={1} id={'topbun'}>{moreThan550 ? <img src={images[0]} alt="Burgern bun big"/> : <img src={images[5]} alt="Burger bun small"/>}</ParallaxLayer>
+        <ParallaxLayer offset={1.36} speed={2} id={'onions'}>{moreThan550 ? <img src={images[1]} alt="Onions big"/> : <img src={images[6]} alt="Onions small"/>}</ParallaxLayer>
+        <ParallaxLayer offset={1.36} speed={3} id={'tomatoes'}>{moreThan550 ? <img src={images[2]} alt="Tomatoes big"/> : <img src={images[7]} alt="Tomatoes small"/>}</ParallaxLayer>
+        <ParallaxLayer offset={1.36} speed={4} id={'patty'}>{moreThan550 ? <img src={images[3]} alt="Patty big"/> : <img src={images[8]} alt="Patty small"/>}</ParallaxLayer>
+        <ParallaxLayer offset={1.36} speed={5} id={'bottombun'}>{moreThan550 ? <img src={images[4]} alt="Burger bun big"/> : <img src={images[9]} alt="Burger bun small"/>}</ParallaxLayer>
       </Parallax>
       </div>
     </div>

@@ -20,7 +20,7 @@ const Videostage = () => {
         <p>Always fresh & bouncy! Enjoy them delivered to your door or inhouse.</p>
         <button className="btn btn-white">Order  now</button>
       </div>
-      {moreThan550 ? <video src={video[0]} autoPlay loop muted playsinline alt="Video showing how a burger is assembled."/> : <img src={image[0]} className="stageimage" alt="Two hands holding a burger."/>}
+      {moreThan550 ? <video src={video[0]} autoPlay loop muted playsInline alt="Video showing how a burger is assembled."/> : <img src={image[0]} className="stageimage" alt="Two hands holding a burger."/>}
     </div>
   )
 }
