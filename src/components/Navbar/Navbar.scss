@@ -28,6 +28,9 @@
 
   .navicon {
     color:white;
+    fill: white;
+    margin-left:2em;
+    margin-right:2em;
   }
 }
 
@@ -45,6 +48,7 @@
 
   .navicon {
     color:var(--primary-color);
+    fill: var(--primary-color);
   }
 }
 
@@ -93,5 +97,10 @@
 
   .navbar .active {
       left: 0;
+  }
+
+  .navicon {
+    margin-left:1em;
+    margin-right:1em;
   }
 }
