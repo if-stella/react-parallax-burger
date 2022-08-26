@@ -56,8 +56,24 @@ video {
   background: linear-gradient(0deg, #141223 0%, #14122333 50%, #14122300 100%);
 }
 
+.bb-intro-illu {
+  width:600px;
+  height:278px;
+}
+
+svg {
+  filter: drop-shadow -6px -6px 30px #0a09127a, 6px 6px 30px #0a09127a;
+}
+
 @media screen and (max-width: 756px) {
   .videocontent {
     padding:1em;
+  }
+}
+
+@media screen and (max-width: 756px) {
+  .bb-intro-illu {
+    width:348px;
+    height:161px;
   }
 }
