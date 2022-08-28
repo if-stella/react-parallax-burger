@@ -59,10 +59,7 @@ video {
 .bb-intro-illu {
   width:600px;
   height:278px;
-}
-
-svg {
-  filter: drop-shadow -6px -6px 30px #0a09127a, 6px 6px 30px #0a09127a;
+  -webkit-filter: drop-shadow(6px 6px 15px #0a09127a);
 }
 
 @media screen and (max-width: 756px) {

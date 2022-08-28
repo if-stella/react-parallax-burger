@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import {ReactComponent as Logo} from '../../assets/Burgerlogo.svg';
+import {ReactComponent as Menu} from '../../assets/Burgermenu.svg';
+
 
 import './Navbar.scss'
 
@@ -30,7 +32,7 @@ const Navbar = () => {
           <li>Contact</li>
         </ul>
         <div className="hamburger" onClick={handleNav}>
-          {nav ? <FaTimes style={{color: 'var(--primary-color-light)', marginRight:'2em'}}/> : <FaBars style={{ marginRight:'2em'}} className={'navicon'}/>}
+          {nav ? <FaTimes style={{color: 'var(--primary-color-light)', marginRight:'2em'}}/> : <Menu style={{width: '16px', height: '16px'}} className={'navicon'} alt="Burger Menu"/>}
         </div>
       </div>
     </div>
