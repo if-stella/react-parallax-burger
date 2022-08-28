@@ -72,7 +72,7 @@
  {
   background:linear-gradient(to right, #141223 0%, #141223f5 10%, #14122300 100%);
   content: '';
-  z-index:3;
+  z-index:2;
   height:100%;
   position:absolute;
   width:20%;
@@ -90,6 +90,10 @@
 }
 
 .pattieslide:hover h4 {
+  display:block;
+}
+
+.pattieslide:focus h4 {
   display:block;
 }
 
