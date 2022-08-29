@@ -8,4 +8,4 @@ Small React.js project, to test out different animation-effects and libraries.
 
 * Animate on scroll (https://michalsnik.github.io/aos/)
 * React-spring parallax (https://react-spring.dev/components/parallax)
-* Mapbox – not working yet 🤡 (https://visgl.github.io/react-map-gl/)
+* <s>Mapbox</s> – not really working 🤡 (https://visgl.github.io/react-map-gl/)
