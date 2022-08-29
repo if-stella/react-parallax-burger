@@ -40,12 +40,14 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   overflow:hidden;
+  height: 85vh;
+  width: 50vw;
 }
 
-
-.map-container {
-  height: 400px;
-  }
+.markerIMG {
+  width:40px;
+  height:40px;
+}
 
 .burgerhand {
   width:500px;
@@ -74,6 +76,8 @@
 
   .mapcontainer {
     border-radius:15px;
+    width: 90vw;
+    height: 75vh;
   }
 
   .mapinfo {

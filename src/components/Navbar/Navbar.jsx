@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes} from 'react-icons/fa'
+import {FaTimes} from 'react-icons/fa'
 import {ReactComponent as Logo} from '../../assets/Burgerlogo.svg';
 import {ReactComponent as Menu} from '../../assets/Burgermenu.svg';
 
