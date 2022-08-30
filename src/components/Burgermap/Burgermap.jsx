@@ -14,7 +14,6 @@ const burgerhand = [
 ];
 
 const mapKey = process.env.REACT_APP_MAP_TOKEN;
-console.log({mapKey})
 
 const Burgermap = () => {
   return (
