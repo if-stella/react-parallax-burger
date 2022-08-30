@@ -1,10 +1,11 @@
-import React from "react";
-import Map, {Marker} from "react-map-gl";
+import React, {useState} from "react";
+import Map, {Marker, Popup} from "react-map-gl";
 import 'maplibre-gl/dist/maplibre-gl.css';
 import maplibregl from 'maplibre-gl';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Burgermap.scss';
+import Markerimg from '../../assets/BBMarker.svg';
 
 AOS.init();
 
@@ -37,42 +38,49 @@ const Burgermap = () => {
       >
         <Marker
         longitude={9.988591459163892}
-        latitude={53.54146925141621}
-        color='#FE9D12'>
-        { /*<img src="https://scontent-frt3-1.xx.fbcdn.net/v/t39.30808-6/299073544_556355532949852_4327379583011100778_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7W4E1XZGYcgAX-p6rLr&_nc_ht=scontent-frt3-1.xx&oh=00_AT_yZxYL9G1Y8wv_JX2SU6t3Utii_3RXK4KrT2HA8GSXug&oe=6312235F" className="markerIMG"/> */ }
+        latitude={53.54146925141621}>
+        <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
         </Marker>
         <Marker
         longitude={9.968970425358744}
-        latitude={53.54601303385451}
-        color='#FE9D12'/>
+        latitude={53.54601303385451}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={9.992130141479425}
-        latitude={53.54800304330674}
-        color='#FE9D12'/>
+        latitude={53.54800304330674}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={9.98969797291128}
-        latitude={53.550419375725326}
-        color='#FE9D12'/>
+        latitude={53.550419375725326}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={9.992918782070657}
-        latitude={53.557178306408474}
-        color='#FE9D12'/>
+        latitude={53.557178306408474}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={10.012760312771425}
-        latitude={53.560655178042225}
-        color='#FE9D12'/>
+        latitude={53.560655178042225}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={10.000876128247835}
-        latitude={53.543310314915175}
-        color='#FE9D12'/>
+        latitude={53.543310314915175}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={10.010298799110643}
-        latitude={53.550934014042475}
-        color='#FE9D12'/>
+        latitude={53.550934014042475}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
         <Marker
         longitude={10.023781610891165}
-        latitude={53.55275653970794}
-        color='#FE9D12'/>
+        latitude={53.55275653970794}>
+          <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+        </Marker>
       </Map>
 
       </div>
