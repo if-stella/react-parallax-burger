@@ -13,6 +13,7 @@ const burgerhand = [
 ];
 
 const mapKey = process.env.REACT_APP_MAP_TOKEN;
+console.log({mapKey})
 
 const Burgermap = () => {
   return (
@@ -29,7 +30,7 @@ const Burgermap = () => {
         initialViewState={{
           longitude: 10.000654,
           latitude: 53.550341,
-          zoom: 14
+          zoom: 13
         }}
         style={{width: 'var(--map-width)', height: 'var(--map-height)'}}
         mapStyle={`https://api.maptiler.com/maps/3485ba68-bc3f-4246-bd52-637c22f0b719/style.json?key=${mapKey}`}
