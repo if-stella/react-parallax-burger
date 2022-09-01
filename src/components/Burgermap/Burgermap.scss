@@ -58,6 +58,33 @@
   --map-height: 85vh;
 }
 
+.map-marker {
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  align-items:center;
+  p {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+    background:transparent;
+    border-radius: 3px;
+    border:1px solid transparent;
+    font-size:0.75em;
+    padding:3px 6px;
+    color: transparent;
+  }
+}
+
+.map-marker:hover {
+  p {
+    color: #1E1A35;
+    border:1px solid var(--primary-color);
+    background:white;
+  }
+}
+
 @media screen and (max-width: 756px) {
   .burgermap {
     flex-direction:column;
