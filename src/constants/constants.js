@@ -1,11 +1,13 @@
 export const locations = [
-  { name: "Biggest spot", latitude: 53.54146925141621, longitude:9.988591459163892},
-  { name: "Nicest spot", latitude: 53.54601303385451, longitude:9.968970425358744},
-  { name: "Cleanest spot", latitude: 53.54800304330674, longitude:9.992130141479425},
-  { name: "Cutest spot", latitude: 53.550419375725326, longitude:9.98969797291128},
-  { name: "Newest spot", latitude: 53.557178306408474, longitude:9.992918782070657},
-  { name: "Smolest spot", latitude: 53.560655178042225, longitude:10.012760312771425},
-  { name: "Divinest spot", latitude: 53.543310314915175, longitude:10.000876128247835},
-  { name: "Latest spot", latitude: 53.550934014042475, longitude:10.010298799110643},
-  { name: "Highest spot", latitude: 53.55275653970794, longitude:10.023781610891165}
+  { name: "Biggest spot", address:"Am Kaiserkai 56", latitude: 53.54149843678791, longitude:9.986651736868346},
+  { name: "Nicest spot", address:'St. Pauli Hafenstraße 108', latitude: 53.54657948393128, longitude:9.961531458649597},
+  { name: "Cleanest spot", address:"Trostbrücke 1", latitude: 53.54778206201485, longitude:9.992200484334607},
+  { name: "Cutest spot", address:"Alter Wall", latitude: 53.5509678, longitude:9.9920095},
+  { name: "Newest spot", address:"Neuer Jungfernstieg 21", latitude: 53.5566550014116, longitude:9.992620250947915},
+  { name: "Smolest spot", address:"An der Alster 10a", latitude: 53.56111493940695, longitude:10.012550304185982},
+  { name: "Divinest spot", address:"Koreastraße 3", latitude: 53.543364823049394, longitude:10.000426818076527},
+  { name: "Latest spot", address:"Mönckebergstraße 8", latitude: 53.551697084903964, longitude:10.003312671677055},
+  { name: "Highest spot", address:"Englische Planke 1", latitude: 53.54859305906759, longitude:9.979134998176264},
+  { name: "Fastest spot", address:"Brandshofer Deich 10", latitude: 53.53972436239832, longitude:10.026737043230064},
+  { name: "Weirdest spot", address:"Baakenallee 14", latitude: 53.53804610045762, longitude:10.010521031227352}
 ];
