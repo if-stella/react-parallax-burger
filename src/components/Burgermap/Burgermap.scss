@@ -63,25 +63,39 @@
   flex-direction:column;
   text-align:center;
   align-items:center;
+
   p {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    text-transform:uppercase;
-    letter-spacing:0.5px;
-    background:transparent;
-    border-radius: 3px;
-    border:1px solid transparent;
     font-size:0.75em;
-    padding:3px 6px;
-    color: transparent;
+    color:transparent;
   }
 }
 
-.map-marker:hover {
-  p {
-    color: #1E1A35;
+.marker-text {
+  background:transparent;
+  border-radius: 3px;
+  border:1px solid transparent;
+  padding:3px 6px;
+
+  p:first-of-type {
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+  }
+}
+
+.map-marker:hover, .map-marker:focus, .map-marker:active {
+  .marker-text {
     border:1px solid var(--primary-color);
     background:white;
+  }
+
+  p {
+    color: #1e1a357d;
+  }
+
+  p:first-of-type {
+    color:#1E1A35;
   }
 }
 
