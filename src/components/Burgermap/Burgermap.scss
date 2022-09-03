@@ -31,7 +31,7 @@
   flex-direction:column;
   gap: 0.25em;
   color:var(--text-color);
-  max-width: 560px;
+  max-width: 520px;
   margin:auto;
   align-items:center;
 }
@@ -73,21 +73,24 @@
 }
 
 .marker-text {
-  background:transparent;
-  border-radius: 3px;
-  border:1px solid transparent;
-  padding:3px 6px;
-
-  p:first-of-type {
-    text-transform:uppercase;
-    letter-spacing:0.5px;
-  }
+  text-align:left;
+  margin:auto 6px;
+  flex:1;
 }
 
-.map-marker:hover, .map-marker:focus, .map-marker:active {
-  .marker-text {
-    border:1px solid var(--primary-color);
-    background:white;
+.marker-info {
+  display:none;
+  width:160px;
+  position:absolute;
+  top:42px;
+  border-radius: 3px;
+  border:1px solid var(--primary-color);
+  background:white;
+  align-items:center;
+
+  img {
+    height:64px;
+    width:64px;
   }
 
   p {
@@ -96,6 +99,14 @@
 
   p:first-of-type {
     color:#1E1A35;
+    text-transform:uppercase;
+    letter-spacing:0.5px;
+  }
+}
+
+.map-marker:hover, .map-marker:focus, .map-marker:active {
+  .marker-info {
+    display:flex;
   }
 }
 

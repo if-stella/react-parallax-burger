@@ -23,7 +23,7 @@ const Burgermap = () => {
       <div className="mapinfo">
         <div className="mapinfotext">
           <h3 data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease-in-out">Get them now!</h3>
-          <p data-aos="fade-up" data-aos-duration="250" data-aos-easing="ease-in-out">A description text! This is where you can find our delicious burgers! We've got several restaurants, all over the place – and are still growing!</p>
+          <p data-aos="fade-up" data-aos-duration="250" data-aos-easing="ease-in-out">Look at all those nice spots! So far, we've established quite a few restaurants, all over Hamburg, where you can find our delicious burgers – and there is more to come!</p>
         </div>
         <img src={burgerhand[0]} alt="A hand holding a burger" className="burgerhand" data-aos="zoom-in-right" data-aos-duration="360" data-aos-easing="ease-in-out"/>
       </div>
@@ -44,9 +44,12 @@ const Burgermap = () => {
           latitude={`${location.latitude}`}>
           <div className="map-marker">
             <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
-            <div className="marker-text">
-              <p className="">{`${location.name}`}</p>
-              <p>{`${location.address}`}</p>
+            <div className="marker-info">
+              <img src={`${location.image}`} alt={`${location.name}`}/>
+              <div className="marker-text">
+                <p className="">{`${location.name}`}</p>
+                <p>{`${location.address}`}</p>
+              </div>
             </div>
           </div>
         </Marker>
