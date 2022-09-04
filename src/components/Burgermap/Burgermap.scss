@@ -44,11 +44,6 @@
   width: 50vw;
 }
 
-.markerIMG {
-  width:40px;
-  height:40px;
-}
-
 .burgerhand {
   width:500px;
 }
@@ -63,13 +58,19 @@
   flex-direction:column;
   text-align:center;
   align-items:center;
+  position:relative;
 
   p {
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
-    font-size:0.75em;
+    font-size:0.9em;
     color:transparent;
   }
+}
+
+.marker-img {
+  z-index:-2;
+  position:relative;
 }
 
 .marker-text {
@@ -78,9 +79,19 @@
   flex:1;
 }
 
+.iconbox {
+  display:flex;
+  color:orange;
+  font-size:1.25em;
+  align-items:center;
+  gap:0.25em;
+  //border-top:1px solid rgba(255, 166, 0, 0.5);
+  padding-top:0.5em;
+}
+
 .marker-info {
   display:none;
-  width:160px;
+  width:240px;
   position:absolute;
   top:42px;
   border-radius: 3px;
@@ -89,8 +100,8 @@
   align-items:center;
 
   img {
-    height:64px;
-    width:64px;
+    height:80px;
+    width:80px;
   }
 
   p {
@@ -146,4 +157,7 @@
     --map-width: 90vw;
     --map-height: 75vh;
   }
+
+  .marker-info {
+    width:280px;}
 }

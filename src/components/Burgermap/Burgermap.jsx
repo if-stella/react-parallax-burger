@@ -43,12 +43,17 @@ const Burgermap = () => {
           longitude={`${location.longitude}`}
           latitude={`${location.latitude}`}>
           <div className="map-marker">
-            <img src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
+            <img className="marker-img" src={Markerimg} alt="Bouncy Burgers Marker Logo" style={{width: '32px', height: '40px'}}/>
             <div className="marker-info">
               <img src={`${location.image}`} alt={`${location.name}`}/>
               <div className="marker-text">
                 <p className="">{`${location.name}`}</p>
                 <p>{`${location.address}`}</p>
+                <div className="iconbox">
+                  {location.icon_1}
+                  {location.icon_2}
+                  {location.icon_3}
+                </div>
               </div>
             </div>
           </div>
