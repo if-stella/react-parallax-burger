@@ -35,7 +35,7 @@ AOS.init();
 
 const Menu = () => {
   return (
-    <div className="menu">
+    <div className="menu" name='menu'>
       <div className="container">
         <h2 data-aos="fade-down" data-aos-duration="150" data-aos-easing="ease-in-out">Meet our burgers!</h2>
           <div className="menugrid">

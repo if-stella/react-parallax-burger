@@ -19,7 +19,7 @@ const mapKey = process.env.REACT_APP_MAP_TOKEN;
 
 const Burgermap = () => {
   return (
-    <div className="burgermap">
+    <div className="burgermap" name='locations'>
       <div className="mapinfo">
         <div className="mapinfotext">
           <h3 data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease-in-out">Get them now!</h3>

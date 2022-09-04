@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import {FaTimes} from 'react-icons/fa'
 import {ReactComponent as Logo} from '../../assets/Burgerlogo.svg';
 import {ReactComponent as Menu} from '../../assets/Burgermenu.svg';
+import {Link} from 'react-scroll'
 
 
 import './Navbar.scss'
@@ -25,11 +26,11 @@ const Navbar = () => {
           <Logo style={{width: '40px', height: '40px'}} className={'navicon'} alt="Burger Logo"/>
         </div>
         <ul className={nav ? 'nav-menu active' : 'nav-menu'}>
-          <li>Home</li>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Delivery</li>
-          <li>Contact</li>
+          <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+          <li><Link to="menu" smooth={true} duration={500}>Menu</Link></li>
+          <li><Link to="ingredients" smooth={true} duration={500}>Ingredients</Link></li>
+          <li><Link to="locations" smooth={true} duration={500}>Locations</Link></li>
+          <li><Link to="footer" smooth={true} duration={500}>Contact</Link></li>
         </ul>
         <div className="hamburger" onClick={handleNav}>
           {nav ? <FaTimes style={{color: 'var(--primary-color-light)', marginRight:'2em'}}/> : <Menu style={{width: '16px', height: '16px'}} className={'navicon'} alt="Burger Menu"/>}

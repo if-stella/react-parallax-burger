@@ -14,7 +14,7 @@ const image = [
 const Videostage = () => {
   const moreThan550 = useMediaPredicate("(min-width: 550px)");
   return (
-    <div className="videostage">
+    <div className="videostage" name='home'>
       <div className="overlay"></div>
       <div className="videocontent">
         <TextIllu className={'bb-intro-illu'} alt="Bouncy Burgers Intro Illustration"/>
