@@ -4,11 +4,11 @@ import { useMediaPredicate } from "react-media-hook";
 import {ReactComponent as TextIllu} from '../../assets/Burgerintro.svg';
 
 const video = [
-  'https://res.cloudinary.com/dr24t0rw2/video/upload/v1660906003/Burger/production_ID_4139325_n6w3l6.mp4'
+  'https://res.cloudinary.com/dhrtgukmg/video/upload/v1662393486/Bouncy%20Burgers/production_ID_4139325_n6w3l6_pys3yv.mp4'
 ];
 
 const image = [
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031971/Burger/Frame_9_jumbun.png'
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393930/Bouncy%20Burgers/Frame_16_dnpt5f_pdwrhd.png'
 ];
 
 const Videostage = () => {

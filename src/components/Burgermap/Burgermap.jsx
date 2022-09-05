@@ -12,7 +12,7 @@ import { locations } from '../../constants/constants';
 AOS.init();
 
 const burgerhand = [
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661441300/Burger/Freehand_1_noyubj.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393931/Bouncy%20Burgers/Freehand_1_noyubj_nlorep.png',
 ];
 
 const mapKey = process.env.REACT_APP_MAP_TOKEN;

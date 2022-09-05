@@ -5,12 +5,12 @@ import 'aos/dist/aos.css';
 import './Menu.scss'
 
 const burgers = [
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118992/Burger/Rectangle_23_w4bnwn.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118991/Burger/Rectangle_24_dgluku.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118991/Burger/unsplash_Va6e3PrBRy4_xuckgu.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118991/Burger/Rectangle_21_itinea.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118991/Burger/unsplash_JqnuWlHmDfE_edm9qx.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661118991/Burger/Rectangle_22_sz4byc.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393924/Bouncy%20Burgers/Rectangle_23_w4bnwn_i98a9e.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393926/Bouncy%20Burgers/Rectangle_24_dgluku_qwcvxr.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393924/Bouncy%20Burgers/unsplash_Va6e3PrBRy4_xuckgu_v40grm.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393926/Bouncy%20Burgers/Rectangle_21_itinea_bqmgg5.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393924/Bouncy%20Burgers/unsplash_JqnuWlHmDfE_edm9qx_rjrwts.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393926/Bouncy%20Burgers/Rectangle_22_sz4byc_kcu8en.png',
 ];
 
 const burgerNames = [
