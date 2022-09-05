@@ -4,16 +4,16 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { useMediaPredicate } from "react-media-hook";
 
 const images = [
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1660813857/Burger/b01-topbun_a3ky6x.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1660813857/Burger/b02-onions_dyxqmr.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1660813857/Burger/b03-tomatoes_wjrblp.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1660813857/Burger/b04-patty_fw0qzu.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661087423/Burger/berger_9_h3cbrq.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_296/v1660813857/Burger/b01-topbun_a3ky6x.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_297/v1660813857/Burger/b02-onions_dyxqmr.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_340/v1660813857/Burger/b03-tomatoes_wjrblp.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_324/v1660813857/Burger/b04-patty_fw0qzu.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_432/v1661087423/Burger/berger_9_h3cbrq.png'
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393765/Bouncy%20Burgers/b01-topbun_a3ky6x_oxizyd.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393645/Bouncy%20Burgers/b02-onions_dyxqmr_dfby0x.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393721/Bouncy%20Burgers/b03-tomatoes_wjrblp_w1lfy0.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393765/Bouncy%20Burgers/b04-patty_fw0qzu_yxqycv.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393924/Bouncy%20Burgers/berger_9_h3cbrq_iuop1y.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_296/v1662393765/Bouncy%20Burgers/b01-topbun_a3ky6x_oxizyd.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_297/v1662393645/Bouncy%20Burgers/b02-onions_dyxqmr_dfby0x.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_340/c_scale,w_324/v1662393721/Bouncy%20Burgers/b03-tomatoes_wjrblp_w1lfy0.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_324/v1662393765/Bouncy%20Burgers/b04-patty_fw0qzu_yxqycv.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_432/v1662393924/Bouncy%20Burgers/berger_9_h3cbrq_iuop1y.png'
  ];
 
 const StackBurger = () => {

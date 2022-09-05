@@ -7,7 +7,7 @@ AOS.init();
 const Burgerdetail = (props) => {
   return (
     <div className="burgerdetail">
-      <img src={props.burgerImage} alt="/" data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease-in-out"/>
+      <img src={props.burgerImage} alt={props.burgerName} data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease-in-out"/>
         <div className="description">
           <h3 data-aos="fade-up" data-aos-duration="200" data-aos-easing="ease-in-out">{props.burgerName}</h3>
           <p data-aos="fade-up" data-aos-duration="250" data-aos-easing="ease-in-out">{props.burgerInfo}</p>

@@ -21,14 +21,14 @@ const infos = [
 ];
 
 const images = [
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661204839/Burger/patty_1_ez5f1h.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661204839/Burger/patty2_1_p9ipar.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661204834/Burger/bacon_2_apusud.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661204834/Burger/bacon_1_ybrj25.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_240/v1661204839/Burger/patty_1_ez5f1h.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_240/v1661204839/Burger/patty2_1_p9ipar.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_320/v1661204834/Burger/bacon_2_apusud.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/c_scale,w_320/v1661204834/Burger/bacon_1_ybrj25.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393720/Bouncy%20Burgers/patty_1_ez5f1h_qxencj.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393785/Bouncy%20Burgers/patty2_1_p9ipar_xnx0ck.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393674/Bouncy%20Burgers/bacon_2_apusud_hsqdbo.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393720/Bouncy%20Burgers/bacon_1_ybrj25_i9up6j.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_240/v1662393720/Bouncy%20Burgers/patty_1_ez5f1h_qxencj.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_240/v1662393785/Bouncy%20Burgers/patty2_1_p9ipar_xnx0ck.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_320/v1662393674/Bouncy%20Burgers/bacon_2_apusud_hsqdbo.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/c_scale,w_320/v1662393720/Bouncy%20Burgers/bacon_1_ybrj25_i9up6j.png'
 ]
 
 const Ingredients = () => {

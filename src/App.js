@@ -10,10 +10,10 @@ import Ingredients from './components/Ingredients/Ingredients';
 import Burgermap from './components/Burgermap/Burgermap';
 
 const images = [
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031973/Burger/Frame_5_sj6msa.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245805/Burger/Frame_16_dnpt5f.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031971/Burger/Frame_9_jumbun.png',
-  'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661031968/Burger/Frame_8_atps8a.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393931/Bouncy%20Burgers/Frame_5_sj6msa_aqeimn.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393930/Bouncy%20Burgers/Frame_16_dnpt5f_pdwrhd.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393929/Bouncy%20Burgers/Frame_9_jumbun_ao30ck.png',
+  'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393925/Bouncy%20Burgers/Frame_8_atps8a_fj5a9s.png',
 ];
 
 function App() {

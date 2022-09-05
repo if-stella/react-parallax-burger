@@ -2,12 +2,12 @@ import React from 'react'
 import './Ingredients.scss'
 
 const patties = [
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/pexels-ron-lach-8879375_2_fafb2u.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/food-photographer-phototastyfood-ru-X92WLoaQ1_o-unsplash_1_zqnrsn.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/bun1_zsv0ex.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/amirali-mirhashemian-sc5sTPMrVfk-unsplash_1_cwmp2l.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/bun2_z7z1yo.png',
-'https://res.cloudinary.com/dr24t0rw2/image/upload/v1661245804/Burger/cesar-carlevarino-aragon-f5NwIK49WDM-unsplash_1_uwdi0a.png'
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393765/Bouncy%20Burgers/pexels-ron-lach-8879375_2_fafb2u_whqzpc.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393721/Bouncy%20Burgers/food-photographer-phototastyfood-ru-X92WLoaQ1_o-unsplash_1_zqnrsn_kzyogn.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393721/Bouncy%20Burgers/bun1_zsv0ex_zotykv.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393720/Bouncy%20Burgers/amirali-mirhashemian-sc5sTPMrVfk-unsplash_1_cwmp2l_qqnfu3.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393674/Bouncy%20Burgers/bun2_z7z1yo_e1dvha.png',
+'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393674/Bouncy%20Burgers/cesar-carlevarino-aragon-f5NwIK49WDM-unsplash_1_uwdi0a_nxfocc.png'
 ];
 
 const names = [
