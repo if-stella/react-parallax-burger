@@ -1,0 +1,33 @@
+.loader {
+  width: 100%;
+  height: 110vh;
+  position: fixed;
+  background: #110e25;
+  backdrop-filter: blur(5px);
+  z-index: 5;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  gap:1em;
+
+  h2 {
+    color: var(--primary-color);
+    text-align:center;
+    font-size:3em;
+    line-height:1.15em;
+    max-width:500px;
+    height:110px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .loader {
+    h2 {
+      font-size:2em;
+      line-height:1em;
+      height:72px;
+      max-width:343px;
+    }
+  }
+}

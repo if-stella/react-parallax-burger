@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Fullimg from './components/Fullimg/Fullimg';
 import Navbar from './components/Navbar/Navbar';
 import StackBurger from './components/StackBurger/StackBurger';
@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Menu from './components/Menu/Menu';
 import Ingredients from './components/Ingredients/Ingredients';
 import Burgermap from './components/Burgermap/Burgermap';
+import Loader from './components/Loader/Loader';
 
 const images = [
   'https://res.cloudinary.com/dhrtgukmg/image/upload/v1662393931/Bouncy%20Burgers/Frame_5_sj6msa_aqeimn.png',
@@ -17,18 +18,30 @@ const images = [
 ];
 
 function App() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 5500);
+  }, []);
   return (
     <div>
-      <Navbar />
-      <Videostage />
-      <StackBurger />
-      <Menu />
-      <Fullimg bgImg1={images[0]} bgImg2={images[1]}/>
-      <Fullimg bgImg1={images[3]} bgImg2={images[2]}/>
-      <Ingredients />
-      <Burgermap />
-      <StackBurger2 />
-      <Footer />
+      {loading ? (
+        <Loader />
+        ) : (
+      <div className="main-content">
+        <Navbar />
+        <Videostage />
+        <StackBurger />
+        <Menu />
+        <Fullimg bgImg1={images[0]} bgImg2={images[1]}/>
+        <Fullimg bgImg1={images[3]} bgImg2={images[2]}/>
+        <Ingredients />
+        <Burgermap />
+        <StackBurger2 />
+        <Footer />
+      </div> )}
     </div>
   );
 }
