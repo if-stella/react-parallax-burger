@@ -36,7 +36,7 @@ const Ingredients = () => {
   return (
     <div className="ingredients">
       <div className="container">
-        <h2  data-aos="fade-down" data-aos-duration="150" data-aos-easing="ease-in-out">Buns, Beef, Bacon</h2>
+        <h2  data-aos="fade-down" data-aos-duration="200" data-aos-easing="ease-in-out">Buns, Beef, Bacon</h2>
         <p></p>
         <Imgslider />
         <Ingredientdetail ingredientName={ingredients[0]} ingredientInfo={infos[0]}/>

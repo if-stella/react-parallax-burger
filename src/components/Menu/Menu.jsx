@@ -37,7 +37,7 @@ const Menu = () => {
   return (
     <div className="menu" name='menu'>
       <div className="container">
-        <h2 data-aos="fade-down" data-aos-duration="150" data-aos-easing="ease-in-out">Meet our burgers!</h2>
+        <h2 data-aos="fade-down" data-aos-duration="200" data-aos-easing="ease-in-out">Meet our burgers!</h2>
           <div className="menugrid">
             <Burgerdetail burgerImage={burgers[0]} burgerName={burgerNames[0]} burgerInfo={burgerInfos[0]}/>
             <Burgerdetail burgerImage={burgers[3]} burgerName={burgerNames[3]} burgerInfo={burgerInfos[3]}/>
