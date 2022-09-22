@@ -1,4 +1,4 @@
-![BouncyBurgers](https://res.cloudinary.com/dhrtgukmg/image/upload/v1662731321/Bouncy%20Burgers/bouncyburgers-cover_qqzxzm.png)
+![BouncyBurgers](https://res.cloudinary.com/dhrtgukmg/image/upload/v1663889501/Bouncy%20Burgers/cover_ipmbu1.png)
 
 # Bouncy Burgers
 
