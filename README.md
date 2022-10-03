@@ -2,7 +2,7 @@
 
 # Bouncy Burgers
 
-Small React.js project, to test out different animation-effects and libraries.
+Small React.js project, to test out different animation-effects and libraries. Initial layout based on a [tutorial](https://youtu.be/TBU12CtcWMU) from [<strong>Fireclint</strong>](https://github.com/fireclint).
 
 ## Techniques & APIs
 
