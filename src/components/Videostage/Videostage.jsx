@@ -7,7 +7,7 @@ import AOS from 'aos';
 AOS.init();
 
 const video = [
-  'https://res.cloudinary.com/dhrtgukmg/video/upload/v1662393486/Bouncy%20Burgers/production_ID_4139325_n6w3l6_pys3yv.mp4'
+  'https://res.cloudinary.com/demo/video/upload/q_auto,vc_vp9/aa5rseeghqsvcfrfksle.webm'
 ];
 
 const image = [
